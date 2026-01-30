@@ -6,7 +6,7 @@ public class DemoIncrement {
         int x = 3;
         int y = ++x + 5;
         int p = 3;
-        ++p;
+        p++;
         int q = p + 5; 
 
         System.out.print("a: " + a);
