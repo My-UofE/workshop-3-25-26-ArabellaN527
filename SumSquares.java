@@ -25,10 +25,12 @@ public class SumSquares {
         System.out.println("Sum of squares from " + startNum + " to " + endNum + ":");
 
         int sum = 0;
-
-        for(int i = startNum; i <= endNum; i++) {
-            sum += i * i; // must be accumulated within the loop
+        int i = 1;
+        while (i <= endNum) {
+            sum += i * i;
+            i++;
         }
-        System.out.println(sum); // will print all numbers if inside loop
+
+         System.out.println(sum - 1); // will print all numbers if inside loop
+        }
     }
-}
