@@ -16,11 +16,11 @@ public class AverageSquares {
 
 
         System.out.print("Please enter the start value: ");
-        double startNum = in.nextInt(); // Reads in an int from standard input
+        double startNum = in.nextDouble(); // Reads in an Double from standard input
         in.nextLine();
         
         System.out.print("Please enter the end value: ");
-        double endNum = in.nextInt();
+        double endNum = in.nextDouble();
 
         System.out.println("Sum of squares from " + startNum + " to " + endNum + ":");
 
@@ -31,6 +31,6 @@ public class AverageSquares {
             i++;
         }
 
-         System.out.println(sum/((endNum - startNum) + 1)); // will print all numbers if inside loop
+         System.out.println(sum/((endNum - startNum)+1)); // will print all numbers if inside loop
         }
     }
